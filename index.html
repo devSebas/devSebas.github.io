@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="styleFile.css">
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.css">
+	<script src="scripts/basicJS.js"></script>
+    
+	<title>LS3D Studio</title>
+
+</head>
+
+
+<body>
+    <!--header-->
+	<header>
+        <p id="home"></p>
+        
+		<div id="logo">
+			<img src="images/logo/logoRotated.png"/>
+		</div>
+
+		<!--nav lista com os diferentes links-->
+		<nav>
+			<li><a href="index.html#home">Home</a></li>
+			<li><a href="index.html#projects">Projects</a></li>
+			<li><a href="index.html#blog">Blog</a></li>
+			<li><a href="index.html#contact">Contact</a></li>
+		</nav>
+	</header>
+
+	<!--iniçio-->
+	<div class="banner">
+        <!--titulo-->
+		<h1>
+			LS3D
+		</h1>
+
+		<h2>
+			Small indie studio, making digital stuff everyday.
+            <br>
+            <br>
+            Focus on creating digital content.
+		</h2>
+		
+	</div>
+    
+	<!--projects-->
+    <div class="backGroundProjects">
+        <p id="projects"></p>
+        
+        <div class="projects">
+            <br>
+            <h1>Projects</h1>
+            
+            <div class="tripleColumn">
+                <li>
+                    <a href="eb23.html" >
+                        <figure>
+                            <img src="images/thumbnails/eb23/eb23_icon.png">
+                            <figcaption><p>Read More</p></figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <div class="nameOf">
+                    <h2>EB 2,3 S school</h2>
+                </div>
+                
+            </div>
+            
+            <div class="tripleColumn">
+                <li>
+                    <a href="orthoWorld.html">
+                        <figure>
+                            <img src="images/thumbnails/orthoWorld/orthoWorld_icon.png">
+                            <figcaption><p>Read More</p></figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <div class="nameOf">
+                    <h2>OrthoWorld</h2>
+                </div>
+            </div>
+
+            <div class="tripleColumn">
+                <li>
+                    <a href="unity3dRenders.html">
+                        <figure>
+                            <img src="images/thumbnails/unityRenders/unityRenders.png">
+                            <figcaption><p>Read More</p></figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <div class="nameOf">
+                    <h2>Unity 3D Renders</h2>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+	<!--blog-->
+    <div class="backGroundBlog">
+        <p id="blog"></p>
+        
+        <div class="blog">
+            <br>
+            <h1>Blog</h1>
+        
+            <div class="tripleColumn">
+                <li>
+                    <a onclick="pageWIP()">
+                        <figure>
+                            <img src="images/thumbnails/404/404.png">
+                            <figcaption><p>Read More</p></figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <div class="nameOf">
+                    <h2>404</h2>
+                </div>
+            </div>
+            
+            <div class="tripleColumn">
+                <li>
+                    <a href="newWebsite.html">
+                        <figure>
+                            <img src="images/thumbnails/newWebsite/newWebsite_icon.png">
+                            <figcaption><p>Read More</p></figcaption>
+                        </figure>
+                    </a>
+                </li>
+                <div class="nameOf">
+                    <h2>New Website</h2>
+                </div>
+            </div>
+
+        </div>
+    </div>
+	
+	<!--contact-->
+	<div class="backGroundContact">
+		<p id="contact"></p>
+		
+        <div class="contact">
+            
+            <br>
+            <h1>Contact</h1>
+
+            <p>Have a question or want to comment?</p>
+
+            <div class="dualColumn">
+                <p>
+                    LS3D Studio
+                    <br>PT
+                    <br>
+                    <br>
+                    
+                    <!--socialMedia-->
+                    <div class="socialMedia">
+                        
+                        <a href="twitterPage" target="_blank">
+                            <i class="fa fa-twitter fa-4x"></i>
+                        </a>
+                        
+                        <a href="facebookPage" target="_blank">
+                            <i class="fa fa-facebook fa-4x"></i>
+                        </a>
+                        
+                        
+                        <a href="youTubeChannel" target="_blank">
+                            <i class="fa fa-youtube fa-4x"></i>
+                        </a>
+                        
+                        <a href="googlePlus" target="_blank">
+                            <i class="fa fa-google-plus fa-4x"></i>
+                        </a>
+                        
+                    </div>
+                </p>
+            
+            </div>
+            
+            <div class="dualColumn">
+               
+                <i class="fa fa-envelope-o fa-2x"></i>
+                
+                <!--form-->
+                <form action="mailto:sebasti3d@hotmail.com" method="post" enctype="text/plain" onsubmit="submited()">
+                    
+                    <input type="text" name="name" size="30" maxlength="30" value="" placeholder="Name">
+                    <br>
+                    <input type="email" name="email" size="30" maxlength="30" value="" placeholder="Email">
+                    <br>
+                    <input type="text" name="subject" size="30" maxlength="30" value="" placeholder="Subject">
+                    <br>
+                    <textarea rows="5" name="text" maxlength="200" placeholder="Enter your message"></textarea>
+                    <br>
+                    <input type="checkbox" name="newsletter" checked/><label>Email me the newsletter.</label>
+                    <br>
+                    
+                    <input type="submit" value="Submit">
+                    
+                </form>
+                
+            </div>
+        </div>
+    </div>
+    
+    <!--footer-->
+    <footer>
+        <br>
+        
+        <a href="index.html#home" class="buttonCircular">
+            <i class="fa fa-angle-double-up"></i>
+        </a>
+       
+        <br>
+        <br>
+        <h1>LS3D Copyright &reg; 2016</h1>
+        <br>
+        
+    </footer>
+    
+</body>
+</html>

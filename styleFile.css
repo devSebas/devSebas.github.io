@@ -1,0 +1,354 @@
+/*font familiy*/
+@font-face {
+    font-family: Raleway-Medium;
+    src: url(fonts/Raleway-Medium.ttf);
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+/*animações*/
+@keyframes zoomSWAG {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.1, 0.1, 0.1) translate3d(0, -500px, 0);
+    animation-timing-function: cubic-bezier(0.550, 0.055, 0.675, 0.190);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale3d(0.5, 0.5, 0.5) translate3d(0, 50px, 0);
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.320, 1);
+  }
+}
+
+@keyframes zoomIn {
+    from {
+        opacity: 0;
+    }
+    
+    33% {
+        opacity: 0;
+        transform: scale3d(0.3, 0.3, 0.3);
+        transform: none;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+
+body {
+	background: white;
+	font-family: Raleway-Medium;
+	font-size: 20px;
+}
+
+header {
+	width: 1000px;
+	height: 150px;
+    margin: auto;
+}
+
+#logo {
+	float: left;
+}
+
+nav{
+    list-style-type: none;
+    margin-top: 65px;
+    display: block;
+    float: right;
+}
+
+nav li {
+    float: left;
+    margin-right: 70px;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+	color: black;
+    transition: 0.5s;
+}
+
+nav a:hover {
+	color: #E84D40;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+
+/*iniçio*/
+.banner {
+	background: url(images/banner/animation.gif) no-repeat;
+	width: 1300px;
+	height: 600px;
+	margin: auto;
+	background-color: rgba(0,0,0,0.7);
+	position: relative;
+}
+
+.banner h1 {
+	text-align: center;
+	position: relative;
+	color: white;
+    font-size: 80px;
+    animation: zoomSWAG 1s;
+}
+
+.banner h2 {
+	position: relative;
+	text-align: center;
+    color: white;
+    animation: zoomIn 3s;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+/*content*/
+.contentEB23 {
+    width: 1000px;
+    height: 2200px;
+    margin: auto;
+}
+
+.contentEB23 img {
+    width: 500px;
+    height: 300px;
+    float: left;
+    border-bottom: 10px solid white;
+}
+
+.contentNewWebsite {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+.contentOrthoWorld {
+    width: 1000px;
+    height: 1800px;
+    margin: auto;
+}
+
+.contentOrthoWorld h3 {
+    font-weight: bold;
+}
+
+.contentRenders {
+    width: 1000px;
+    height: 850px;
+    margin: auto;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+/*image slider*/
+.imageSlider {
+    width: 1000px;
+    text-align: center;
+}
+.container div {
+    display: inline-block;
+    display: none;
+}
+.container img {
+    width: 100%;
+    height: 100%;
+}
+
+.next {
+    position: relative;
+    right: -525px;
+    bottom: 300px;
+}
+
+.previous {
+    position: relative;
+    left: -525px;
+    bottom: 350px;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+/*projetcs section*/
+.backGroundProjects {
+    background-color: white;
+}
+
+.projects {
+    width: 1000px;
+    height: 500px;
+	margin: auto;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+/*blog section*/
+.backGroundBlog {
+    background-color: white;
+}
+
+.blog {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+/*tripleColumn*/
+.tripleColumn {
+	width: 300px;
+    margin: 0 15px 0 15px;
+    line-height: 30px;
+	float: left;
+}
+
+.tripleColumn li {
+	
+	display: inline-block;
+	
+	width: 300px;
+}
+
+.tripleColumn figure {
+    overflow: hidden;
+    width: 300px;
+	height: 250px;
+	position: relative;
+}
+
+.tripleColumn img {
+    transition: all 300ms;
+	width: 300px;
+    height: 250px;
+}
+
+.tripleColumn li:hover img {
+    transform: scale(1.2);
+}
+
+.tripleColumn figcaption {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	display: table;
+    width: 300px;
+	height: 250px;
+	opacity: 0;
+	position: absolute;
+	top: 0;
+    transition: all 300ms;
+}
+
+.tripleColumn figcaption p {
+    text-align: center;
+	display: table-cell;
+	font-size: 30px;
+	vertical-align: middle;
+    transition: all 300ms ease-out;
+}
+
+
+.tripleColumn li:hover figcaption {
+	opacity: 1;
+}
+
+.nameOf {
+    position: relative;
+    bottom: 30px;
+    left: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 10px;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+
+/*dualColumn*/
+.dualColumn {
+	width: 450px;
+    margin: 0 15px 0 15px;
+    line-height: 30px;
+	float: left;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+
+/*contact section*/
+.backGroundContact {
+    background-color: #E84D40;
+}
+
+.contact {
+    width: 1000px;
+    height: 650px;
+	margin: auto;
+    color: white;
+}
+
+.socialMedia a {
+    display: inline-block;
+    color: white;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.socialMedia a:hover {
+    color: gray;
+}
+
+/*form*/
+form textarea, form input {
+    background-color: white;
+    font-size: 25px;
+    border-radius: 4px;
+    border: hidden;
+    padding: 3px;
+    width: 450px;
+}
+
+form textarea {
+    resize: none;
+}
+
+form label {
+    position: relative;
+    top: -27.5px;
+    left: 30px;
+}
+
+/****************************************+++++++++++++++++++++++++++++++++++++++****/
+
+/*footer section*/
+footer {
+    background-color: #2D3038;
+}
+
+a {
+    margin-left: 50%;
+}
+
+.buttonCircular {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    background-color: #E84D40;
+    transition: 0.3s;
+}
+
+.buttonCircular:hover {
+    background-color: gray;
+}
+
+footer h1 {
+	font-size: 25px;
+	text-align: center;
+    color: white;
+}
