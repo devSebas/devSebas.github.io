@@ -145,7 +145,7 @@ nav a:hover {
 
 .contentJardimPaco {
     width: 1000px;
-    height: 3000px;
+    height: 3050px;
     margin: auto;
 }
 
@@ -201,9 +201,7 @@ nav a:hover {
 }
 
 .tripleColumn li {
-	
 	display: inline-block;
-	
 	width: 300px;
 }
 
