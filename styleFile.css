@@ -143,6 +143,18 @@ nav a:hover {
     font-weight: bold;
 }
 
+.contentVilaB {
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+}
+
+.contentVilaB img {
+    width: 500px;
+    height: 300px;
+    float: left;
+}
+
 .contentJardimPaco {
     width: 1000px;
     height: 3050px;
