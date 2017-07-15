@@ -127,6 +127,12 @@ nav a:hover {
     margin: auto;
 }
 
+.contentAR {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
 .contentOrthoWorld {
     width: 1000px;
     height: 2250px;
