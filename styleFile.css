@@ -24,7 +24,7 @@
     from {
         opacity: 0;
     }
-    
+
     33% {
         opacity: 0;
         transform: scale3d(0.3, 0.3, 0.3);
@@ -121,12 +121,6 @@ nav a:hover {
     float: left;
 }
 
-.contentNewWebsite {
-    width: 1000px;
-    height: 500px;
-    margin: auto;
-}
-
 .contentAR {
     width: 1200px;
     height: 500px;
@@ -207,18 +201,6 @@ nav a:hover {
     width: 1000px;
     height: 900px;
 	margin: auto;
-}
-
-/****************************************+++++++++++++++++++++++++++++++++++++++****/
-/*blog section*/
-.backGroundBlog {
-    background-color: white;
-}
-
-.blog {
-    width: 1000px;
-    height: 500px;
-    margin: auto;
 }
 
 /****************************************+++++++++++++++++++++++++++++++++++++++****/
