@@ -121,9 +121,9 @@ nav a:hover {
     float: left;
 }
 
-.contentAR {
+.contentXRDevelopment {
     width: 1200px;
-    height: 500px;
+    height: 2100px;
     margin: auto;
 }
 
@@ -179,13 +179,13 @@ nav a:hover {
     float: left;
 }
 
-.palace {
+.contentPalace {
     width: 1000px;
     height: 1200px;
     margin: auto;
 }
 
-.palace img {
+.contentPalace img {
     width: 500px;
     height: 300px;
     float: left;
@@ -199,7 +199,7 @@ nav a:hover {
 
 .projects {
     width: 1000px;
-    height: 900px;
+    height: 1200px;
 	margin: auto;
 }
 
