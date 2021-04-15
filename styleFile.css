@@ -121,6 +121,12 @@ nav a:hover {
     float: left;
 }
 
+.quotes {
+    width: 1200px;
+    height: 500px;
+    margin: auto;
+}
+
 .contentXRDevelopment {
     width: 1200px;
     height: 2100px;
